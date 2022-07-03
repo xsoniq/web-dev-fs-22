@@ -7,30 +7,45 @@
     <title>Register</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <form>
-        First name: <input type="text"><br>
-        <p>Last name: <input type="text"></p>
-        <p>E-mail*: <input type="email" required></p>
-        Birthday: <input type="date"><br>
+
+<div>
+    <form method="GET">
+        <span>First name:</span> <input type="text" name="firstname"><br>
+        <p>Last name: <input type="text" name="lasttname"></p>
+        <p>E-mail*: <input type="email" name="email" required></p>
+        <p>Password*: <input type="password" name="password" required min="5"></p>
+        Birthday: <input type="date" name="Birthday"><br>
         <br>
         Gender: <br>
         <br>
-        <input type="radio" name="gender">Male<br>
+        <input type="radio" name="gender" value="Male">Male<br>
         <br>
-        <input type="radio" name="gender">Female<br>
+        <input type="radio" name="gender" value="Female">Female<br>
         <br>
-        <input type="radio" name="gender">Other<br>
+        <input type="radio" name="gender" value="Other">Other<br>
         <br>
         Pets:<br>
         <br>
-        <input type="checkbox">Cats<br>
+        <input type="checkbox" name="Cats">Cats<br>
         <br>
-        <input type="checkbox">Dogs<br>
+        <input type="checkbox" name="Dogs">Dogs<br>
         <br>
-        <input type="submit" value="Register">
+        Cars:<br>
+        <br>
+        <select>
+            <option value="volvo" name="volvo">Volvo</option>
+            <option value="mclaren" name="mclaren">mclaren</option>
+
+        </select><br>
+        <br>
+        <input type="submit" value="Submit">
         <input type="reset">
     </form>
+</div>
+
+<body>
+    <!--use GET not POST-->
+    
     <a href="index.html">
         <h2>go back</h2>
         </a>
