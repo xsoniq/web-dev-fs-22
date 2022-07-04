@@ -2,9 +2,11 @@
     Property: value;
 }*/
 h2 {
-    color: red;
+    color: #050204;
     text-align: center;
     cursor: pointer;
+    border: 5px solid;
+    border-color: rgba(163, 76, 120, 0.3);
 }
 p {
     color: pink;
@@ -13,6 +15,7 @@ p {
 body{
     text-align: center;
     background-image: url(backgroundimage.jpg);
+    background-size: auto;
     color: aliceblue;
 }
 li {
