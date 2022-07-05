@@ -1,12 +1,16 @@
 /*selector {
     Property: value;
 }*/
-h2 {
+/** {
+    text-align: right;
+}*/
+
+h2 + p:hover {
     color: #050204;
     text-align: center;
-    cursor: pointer;
     border: 5px solid;
     border-color: rgba(163, 76, 120, 0.3);
+    cursor: pointer;
 }
 p {
     color: black ;
@@ -23,14 +27,18 @@ li {
     display: inline-block;
 }
 
-.webtext {
+.webtext: : first-child {
     border: 5px solid white;
-}
+} 
 
 .active {
     color: red;
 }
 
 #div1 {
-    background: #4A994A;
+    background: rgba(0, 255, 0, 0.4);
+}
+
+#div2 {
+    background: blue;
 }
