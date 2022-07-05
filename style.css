@@ -9,8 +9,8 @@ h2 {
     border-color: rgba(163, 76, 120, 0.3);
 }
 p {
-    color: pink;
-    background-color: brown;
+    color: black ;
+    background-color: #AFD9AF;
 }
 body{
     text-align: center;
@@ -21,4 +21,16 @@ body{
 li {
     list-style: none;
     display: inline-block;
+}
+
+.webtext {
+    border: 5px solid white;
+}
+
+.active {
+    color: red;
+}
+
+#div1 {
+    background: #4A994A;
 }
