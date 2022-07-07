@@ -6,10 +6,15 @@
 }*/
 
 header{
-    border: 5px solid rgba(255, 224, 45, 0.548);
-    background: #a0468263;
+    border: 5px solid #ffe02d8c;
+    background: hsla(320, 39%, 45%, 0.388);
     font-family: 'Courier New', Courier, monospace;
     
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    background: #050204;
 }
 
 h2 + p {
@@ -53,3 +58,4 @@ li {
 #div2 {
     background: rgba(201, 152, 20, 0.4);;
 }
+
