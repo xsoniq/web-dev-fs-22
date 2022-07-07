@@ -5,20 +5,31 @@
     text-align: right;
 }*/
 
-h2 + p:hover {
+header{
+    border: 5px solid rgba(255, 224, 45, 0.548);
+    background: #a0468263;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+h2 + p {
     color: #050204;
     text-align: center;
     border: 5px solid;
-    border-color: rgba(163, 76, 120, 0.3);
+    border-color: rgb(0, 0, 0);
     cursor: pointer;
 }
 p {
-    color: black ;
-    background-color: #AFD9AF;
+    line-height: 50px;
+    /*font-style: italic;*/
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace ;
+
 }
 body{
     text-align: center;
-    background-image: url(backgroundimage.jpg);
+    background-image: url(backgroundimage.jpg);;
     background-size: auto;
     color: aliceblue;
 }
@@ -27,12 +38,12 @@ li {
     display: inline-block;
 }
 
-.webtext: : first-child {
+.webtext first-child {
     border: 5px solid white;
 } 
 
 .active {
-    color: red;
+    color: rgb(174, 243, 255);
 }
 
 #div1 {
@@ -40,5 +51,5 @@ li {
 }
 
 #div2 {
-    background: blue;
+    background: rgba(201, 152, 20, 0.4);;
 }
