@@ -5,11 +5,35 @@
     text-align: right;
 }*/
 
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #5c7e9e;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+
 header{
     border: 5px solid #ffe02d8c;
     background: hsla(320, 39%, 45%, 0.388);
     font-family: 'Courier New', Courier, monospace;
-    
+    font-size: 100px;
+    color: azure;
+
 }
 
 h2{
@@ -34,7 +58,7 @@ p {
 }
 body{
     text-align: center;
-    background-image: url(backgroundimage.jpg);;
+    background-image: url(backgroundimage.jpg);
     background-size: auto;
     color: aliceblue;
 }
@@ -58,4 +82,6 @@ li {
 #div2 {
     background: rgba(201, 152, 20, 0.4);;
 }
+
+
 
